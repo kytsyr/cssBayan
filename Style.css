@@ -1,6 +1,9 @@
   h1 {
     text-align: center;
   }
+  li {
+    cursor: pointer;
+  }
   .list {
    display: none;
   }
@@ -27,3 +30,5 @@
     text-align: center;
     text-decoration: none;
   }
+
+  
