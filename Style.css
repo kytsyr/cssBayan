@@ -1,0 +1,34 @@
+  h1 {
+    text-align: center;
+  }
+  li {
+    cursor: pointer;
+  }
+  .list {
+   display: none;
+  }
+  
+  .show {
+    display: none;
+  }
+
+  .hide:target + .show {
+    display:flexbox;
+  }
+
+  .hide:target {
+    display: none;
+  }
+
+  .hide:target~.list {
+    display: inline;
+  }
+
+  .hide, .show {
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
